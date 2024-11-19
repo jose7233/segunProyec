@@ -70,7 +70,7 @@ public class Panel1 extends JFrame {
     }
 
     public void leerDato() {
-        String query = "SELECT nombre, ciudad, pais FROM aeropuertos WHERE privado = 1 ";
+        String query = "SELECT nombre, ciudad, pais FROM aeropuertos WHERE privado = 1 limit 3 ";
         try {
             Connection con = conectar();
             Statement st = con.createStatement();

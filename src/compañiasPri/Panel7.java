@@ -7,7 +7,7 @@ public class Panel7 extends JFrame {
     public Panel7() {
         super();
         setContentPane(panel7);
-        setSize(200,200);
+        setSize(400,400);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
